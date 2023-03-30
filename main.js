@@ -41,7 +41,7 @@ const duck = {
     age: 1,
 
     toStr: function () {
-        return [this.name, this.color, this.age].join(', ');
+        return `${this.name}, ${this.color}, ${this.age} год`;
     },
 
     say: function () {
